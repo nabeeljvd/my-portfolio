@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nabeel Javaid - AI Engineer and Full-Stack AI Developer Portfolio" />
+  <title>Nabeel Javaid | AI Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="nav-overlay" class="nav-drawer-overlay" aria-hidden="true" tabindex="-1"></div>
+  <div id="preloader">
+    <div class="loader-core"></div>
+    <p>Initializing AI Portfolio Interface</p>
+  </div>
+
+  <div id="cursor-dot"></div>
+  <div id="cursor-outline"></div>
+  <div id="scroll-progress"></div>
+  <div id="particles-js"></div>
+  <div id="spotlight"></div>
+  <canvas id="hero-canvas"></canvas>
+
+  <div class="grid-overlay"></div>
+  <div class="floating-orb orb-1"></div>
+  <div class="floating-orb orb-2"></div>
+  <div class="floating-orb orb-3"></div>
+
+  <header class="site-header glass-nav">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#hero" class="logo magnetic" data-magnetic>
+        <span class="logo-highlight">N</span>abeel
+      </a>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button type="button" class="nav-toggle magnetic" data-magnetic aria-label="Open menu" aria-expanded="false"
+        aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero theme-section theme-hero">
+      <div class="container hero-content">
+        <p class="hero-kicker">AI Engineer Portfolio</p>
+        <h1 class="hero-title">Nabeel Javaid</h1>
+        <h2 class="hero-subtitle">
+          AI Engineer & Full-Stack AI Developer
+        </h2>
+        <p class="hero-typing">
+          <span id="typing-text"></span><span class="typing-caret">|</span>
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary magnetic" data-magnetic>View Projects</a>
+          <a href="#contact" class="btn btn-secondary magnetic" data-magnetic>Contact Me</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/nabeeljvd" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/nabeel-javaid-a2b997401" aria-label="LinkedIn" target="_blank"
+            rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section theme-section theme-about">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="section-tag">About</p>
+          <h3>Building AI-first Digital Intelligence</h3>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card reveal-up">
+            <h4>Profile</h4>
+            <p>
+              BSIT student and AI Developer focused on creating production-ready
+              intelligent systems with modern web architectures.
+            </p>
+          </article>
+          <article class="glass-card reveal-up">
+            <h4>Core AI Domains</h4>
+            <div class="pill-wrap">
+              <span>Machine Learning</span><span>Deep Learning</span><span>Generative AI</span>
+              <span>NLP</span><span>Agentic AI</span><span>RAG Systems</span>
+            </div>
+          </article>
+          <article class="glass-card reveal-up">
+            <h4>Vision</h4>
+            <p>
+              I design performant, scalable AI products that transform complex
+              workflows into intuitive and intelligent user experiences.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section theme-section theme-experience">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="section-tag">Experience</p>
+          <h3>Applied Learning & Delivery</h3>
+        </div>
+        <div class="timeline">
+          <article class="timeline-card reveal-left">
+            <span class="timeline-dot"></span>
+            <h4 class="heading-cyber-timeline typewriter-heading" data-full-text="AI &amp; Machine Learning Trainee">AI
+              &amp; Machine Learning Trainee</h4>
+            <p class="timeline-meta">Corvit Networks</p>
+            <p>
+              Trained on model development pipelines, evaluation strategies, and
+              deployment-oriented machine learning workflows.
+            </p>
+          </article>
+          <article class="timeline-card reveal-right">
+            <span class="timeline-dot"></span>
+            <h4 class="heading-cyber-timeline typewriter-heading" data-full-text="Teaching Assistant">Teaching Assistant
+            </h4>
+            <p class="timeline-meta">Knowledge Streams</p>
+            <p>
+              Mentored students in programming fundamentals, logic building, and
+              practical implementation patterns for real-world projects.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section theme-section theme-projects">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="section-tag">Projects</p>
+          <h3>High-impact AI Systems</h3>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card tilt-card reveal-up" data-tilt>
+            <h4 class="heading-cyber-project">
+              <span class="heading-cyber-text">AI-Powered Talent Matching &amp; Recruitment System</span><span
+                class="title-caret" aria-hidden="true"></span>
+            </h4>
+            <p>
+              Intelligent candidate-job matching platform using semantic ranking,
+              skill extraction, and predictive hiring insights.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>FastAPI</span><span>NLP</span><span>PostgreSQL</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-mini">Demo</a>
+              <a href="https://github.com/nabeeljvd" class="btn btn-mini btn-ghost" target="_blank"
+                rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card tilt-card reveal-up" data-tilt>
+            <h4 class="heading-cyber-project">
+              <span class="heading-cyber-text">Brain Tumor Detection &amp; Medical Imaging Analysis System</span><span
+                class="title-caret" aria-hidden="true"></span>
+            </h4>
+            <p>
+              Deep learning-based diagnostic support tool for MRI image
+              classification and pathology pattern identification.
+            </p>
+            <div class="tags">
+              <span>TensorFlow</span><span>Keras</span><span>Python</span><span>DL</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-mini">Demo</a>
+              <a href="https://github.com/nabeeljvd" class="btn btn-mini btn-ghost" target="_blank"
+                rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card tilt-card reveal-up" data-tilt>
+            <h4 class="heading-cyber-project">
+              <span class="heading-cyber-text">AI-Based Phishing Detection &amp; Email Security System</span><span
+                class="title-caret" aria-hidden="true"></span>
+            </h4>
+            <p>
+              Security-focused AI system that classifies malicious email threats
+              and improves prevention with context-aware analysis.
+            </p>
+            <div class="tags">
+              <span>ML</span><span>FastAPI</span><span>Cyber AI</span><span>SQLite</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn btn-mini">Demo</a>
+              <a href="https://github.com/nabeeljvd" class="btn btn-mini btn-ghost" target="_blank"
+                rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section theme-section theme-skills">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="section-tag">Skills</p>
+          <h3>Engineering Arsenal</h3>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group glass-card reveal-up">
+            <h4>AI & ML</h4>
+            <div class="skill-item"><span>TensorFlow</span>
+              <div class="bar"><i data-width="92"></i></div>
+            </div>
+            <div class="skill-item"><span>Keras</span>
+              <div class="bar"><i data-width="88"></i></div>
+            </div>
+            <div class="skill-item"><span>NLP</span>
+              <div class="bar"><i data-width="90"></i></div>
+            </div>
+            <div class="skill-item"><span>RAG Systems</span>
+              <div class="bar"><i data-width="86"></i></div>
+            </div>
+          </div>
+          <div class="skill-group glass-card reveal-up">
+            <h4>Frontend</h4>
+            <div class="skill-item"><span>JavaScript</span>
+              <div class="bar"><i data-width="89"></i></div>
+            </div>
+            <div class="skill-item"><span>React</span>
+              <div class="bar"><i data-width="84"></i></div>
+            </div>
+            <div class="skill-item"><span>Tailwind CSS</span>
+              <div class="bar"><i data-width="86"></i></div>
+            </div>
+          </div>
+          <div class="skill-group glass-card reveal-up">
+            <h4>Backend / Data</h4>
+            <div class="skill-item"><span>FastAPI</span>
+              <div class="bar"><i data-width="87"></i></div>
+            </div>
+            <div class="skill-item"><span>PostgreSQL</span>
+              <div class="bar"><i data-width="82"></i></div>
+            </div>
+            <div class="skill-item"><span>SQLite</span>
+              <div class="bar"><i data-width="80"></i></div>
+            </div>
+            <div class="skill-item"><span>FAISS</span>
+              <div class="bar"><i data-width="81"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="marquee">
+          <div class="marquee-track">
+            <span>Python</span><span>C++</span><span>JavaScript</span><span>FastAPI</span><span>TensorFlow</span><span>Keras</span><span>LangChain</span><span>OpenAI
+              Agents SDK</span><span>Generative AI</span><span>Deep Learning</span><span>Agentic AI</span><span>RAG
+              Systems</span>
+            <span>Python</span><span>C++</span><span>JavaScript</span><span>FastAPI</span><span>TensorFlow</span><span>Keras</span><span>LangChain</span><span>OpenAI
+              Agents SDK</span><span>Generative AI</span><span>Deep Learning</span><span>Agentic AI</span><span>RAG
+              Systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section theme-section theme-education">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <p class="section-tag">Education & Certifications</p>
+          <h3>Continuous Growth</h3>
+        </div>
+        <div class="edu-grid edu-grid-animate">
+          <article class="glass-card">
+            <h4>C++ Programming</h4>
+            <p>Knowledge Streams</p>
+          </article>
+          <article class="glass-card">
+            <h4>Python Programming</h4>
+            <p>Corvit Systems</p>
+          </article>
+          <article class="glass-card">
+            <h4>AI/ML/DL Training</h4>
+            <p>Corvit Networks</p>
+          </article>
+          <article class="glass-card">
+            <h4>BSIT</h4>
+            <p>Government Graduate College for Boys, Gulberg Lahore</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section theme-section theme-contact">
+      <div class="container contact-wrap">
+        <div class="contact-copy reveal-left">
+          <p class="section-tag">Contact</p>
+          <h3>Let’s Build Intelligent Systems Together</h3>
+          <p class="contact-line">Email: nabeeljavaid.ai@gmail.com</p>
+          <p class="contact-line">Phone: +92 303 8297283</p>
+          <div class="social-row contact-social">
+            <a href="https://github.com/nabeeljvd" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/nabeel-javaid-a2b997401" aria-label="LinkedIn" target="_blank"
+              rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/nabeeljavaid.ai?igsh=NXkwdWs2YzZmdzFv" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <form class="contact-form glass-card reveal-right">
+          <label>
+            Name
+            <input type="text" placeholder="Your Name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary magnetic" data-magnetic>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-copy">© <span id="year"></span> Nabeel Javaid. Engineered with AI-forward design.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
